@@ -1,14 +1,18 @@
+
 import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
+import Database from "./components/Database";
+
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-    
-      </header> */}
-      <h1>Hello Maipato</h1>
+      <header>
+        <div>
+          <h1>Hello Maipato</h1>
+       </div>
+      </header>
+
+      <Database/>
     </div>
   );
 }
